@@ -10,6 +10,6 @@ if __name__ == "__main__":
     elif lnt == 1:
         print("1 argument:")
     else:
-        print("{} arguments:".format(lnt))
+        print("{:d} arguments:".format(lnt))
     for i in range(lnt):
-        print("{}: {}".format(i + 1, sys.argv[i + 1]))
+        print("{:d}: {}".format(i + 1, sys.argv[i + 1]))
