@@ -2,9 +2,7 @@
 
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
-    """imports functions from the file calculator_1.py, does some Maths,
-        and prints the result.
-    """
+    """Prints the sum, difference, multiple and division of 10 and 5."""
     a = 10
     b = 5
 
